@@ -5,24 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="483502ba-c651-44da-bc2b-6dd3c7c60028" name="Changes" comment="Triofan Commit">
-      <change afterPath="$PROJECT_DIR$/src/test/java/driplane/utilities/Driver.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configuration.properties" beforeDir="false" afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/pages/DefaultProjectDashboardUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/pages/DefaultProjectDashboardUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/pages/TriofanLoginUITest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/pages/DriplaneLoginUITest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/runners/Runner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/runners/Runner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/stepdefinitions/AfterClickingLOGINTriofanLoginUITestSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/stepdefinitions/AfterClickingLOGINDriplaneLoginUITestSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/stepdefinitions/Hooks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/stepdefinitions/Hooks.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/stepdefinitions/TriofanLoginUITestSD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/stepdefinitions/DriplaneLoginUITestSD.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/stepdefinitions/UserLoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/stepdefinitions/UserLoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/tests/Test001.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/tests/Test001.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/utilities/ConfigurationReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/utilities/ConfigurationReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/utilities/Driver.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/utilities/ReusableMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/utilities/ReusableMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/triofan/utilities/WebDriverFactoryStaticThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/driplane/utilities/WebDriverFactoryStaticThreadLocal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/afterclickingLOGINtriofanloginuitest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/afterclickingLOGINdriplaneloginuitest.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/resources/features/triofanloginuitest.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/driplaneloginuitest.feature" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,13 +23,13 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitLabMergeRequestFiltersHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPENED",
-    "assignee": {
-      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
-      "username": "ytknkpln",
-      "fullname": "AYTEKİN KAPLAN"
+  "history": [
+    {
+      "state": "OPENED"
     }
+  ],
+  "lastFilter": {
+    "state": "OPENED"
   }
 }]]></component>
   <component name="GitLabMergeRequestsSettings"><![CDATA[{
@@ -246,7 +229,7 @@
       <workItem from="1707321664043" duration="364000" />
       <workItem from="1707384129136" duration="19459000" />
       <workItem from="1707470924603" duration="6789000" />
-      <workItem from="1707479310008" duration="2364000" />
+      <workItem from="1707479310008" duration="3553000" />
     </task>
     <task id="LOCAL-00001" summary="Triofan Commit">
       <option name="closed" value="true" />
@@ -267,7 +250,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
