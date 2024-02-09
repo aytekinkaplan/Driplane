@@ -1,9 +1,9 @@
-package triofan.pages;
+package driplane.pages;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import triofan.utilities.Driver;
+import driplane.utilities.Driver;
 
 public class DefaultProjectDashboardUITest {
     public DefaultProjectDashboardUITest() {

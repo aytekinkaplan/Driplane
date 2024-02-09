@@ -1,4 +1,4 @@
-package triofan.stepdefinitions;
+package driplane.stepdefinitions;
 
 
 import io.cucumber.java.After;
@@ -6,11 +6,11 @@ import io.cucumber.java.Before;
 import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import triofan.utilities.Driver;
+import driplane.utilities.Driver;
 
 import java.io.IOException;
 
-import static triofan.utilities.ReusableMethods.takeScreenshot;
+import static driplane.utilities.ReusableMethods.takeScreenshot;
 
 
 public class Hooks {

@@ -1,4 +1,4 @@
-package triofan.runners;
+package driplane.runners;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
@@ -7,8 +7,8 @@ import org.junit.runner.RunWith;
 @RunWith(Cucumber.class)
 @CucumberOptions(
         features = "src/test/resources/features",
-        glue = "triofan/stepdefinitions",
-        tags = "@triofanLogin",
+        glue = "driplane/stepdefinitions",
+        tags = "@login",
         dryRun = false
 )
 

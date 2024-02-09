@@ -1,13 +1,12 @@
-package triofan.pages;
+package driplane.pages;
 
-import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import triofan.utilities.Driver;
+import driplane.utilities.Driver;
 
-public class TriofanLoginUITest {
-    public TriofanLoginUITest() {
+public class DriplaneLoginUITest {
+    public DriplaneLoginUITest() {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 

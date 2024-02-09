@@ -1,9 +1,9 @@
-package triofan.tests;
+package driplane.tests;
 
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import triofan.utilities.Driver;
+import driplane.utilities.Driver;
 
 import java.util.List;
 

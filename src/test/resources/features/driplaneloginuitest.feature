@@ -1,51 +1,51 @@
-@triofanLogin
+@driplaneLogin
 Feature: Triofan Login UI Test
 
-  @triofanLogin
+  @driplaneLogin
   Scenario: User navigates to the login page
     Given the user is on the login page
 
-  @triofanLogin @driplaneText
+  @driplaneLogin @driplaneText
   Scenario: User should see the "Driplane" text
     Given the user is on the login page
     Then the user should see the text "Driplane"
 
-  @triofanLogin @emailInput
+  @driplaneLogin @emailInput
   Scenario: User should see the Email input field
     Given the user is on the login page
     Then the user should see the Email input field
 
-  @triofanLogin @passwordInput
+  @driplaneLogin @passwordInput
   Scenario: User should see the Password input field
     Given the user is on the login page
     Then the user should see the Password input field
 
-  @triofanLogin @loginButton
+  @driplaneLogin @loginButton
   Scenario: User should see the LOGIN button
     Given the user is on the login page
     Then the user should see the LOGIN button
 
-  @triofanLogin @clickLoginButton
+  @driplaneLogin @clickLoginButton
   Scenario: User should be able to click on the LOGIN button
     Given the user is on the login page
     Then the user should see the LOGIN button
 
-  @triofanLogin @resetPasswordButton
+  @driplaneLogin @resetPasswordButton
   Scenario: User should see the RESET PASSWORD button
     Given the user is on the login page
     Then the user should see the RESET PASSWORD button
 
-  @triofanLogin @clickResetPasswordButton
+  @driplaneLogin @clickResetPasswordButton
   Scenario: User should be able to click on the RESET PASSWORD button
     Given the user is on the login page
     Then the user should see the RESET PASSWORD button
 
-  @triofanLogin @createAccountButton
+  @driplaneLogin @createAccountButton
   Scenario: User should see the CREATE ACCOUNT button
     Given the user is on the login page
     Then the user should see the CREATE ACCOUNT button
 
-  @triofanLogin @clickCreateAccountButton
+  @driplaneLogin @clickCreateAccountButton
   Scenario: User should be able to click on the CREATE ACCOUNT button
     Given the user is on the login page
     Then the user should see the CREATE ACCOUNT button
