@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="483502ba-c651-44da-bc2b-6dd3c7c60028" name="Changes" comment="Triofan Commit">
+    <list default="true" id="483502ba-c651-44da-bc2b-6dd3c7c60028" name="Changes" comment="Driplane Commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,10 +26,33 @@
   "history": [
     {
       "state": "OPENED"
+    },
+    {
+      "state": "OPENED",
+      "author": {
+        "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAuthorFilterValue",
+        "username": "ytknkpln",
+        "fullname": "AYTEKİN KAPLAN"
+      },
+      "assignee": {
+        "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
+        "username": "ytknkpln",
+        "fullname": "AYTEKİN KAPLAN"
+      }
     }
   ],
   "lastFilter": {
-    "state": "OPENED"
+    "state": "OPENED",
+    "author": {
+      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAuthorFilterValue",
+      "username": "ytknkpln",
+      "fullname": "AYTEKİN KAPLAN"
+    },
+    "assignee": {
+      "type": "org.jetbrains.plugins.gitlab.mergerequest.ui.filters.GitLabMergeRequestsFiltersValue.MergeRequestsMemberFilterValue.MergeRequestsAssigneeFilterValue",
+      "username": "ytknkpln",
+      "fullname": "AYTEKİN KAPLAN"
+    }
   }
 }]]></component>
   <component name="GitLabMergeRequestsSettings"><![CDATA[{
@@ -229,7 +252,7 @@
       <workItem from="1707321664043" duration="364000" />
       <workItem from="1707384129136" duration="19459000" />
       <workItem from="1707470924603" duration="6789000" />
-      <workItem from="1707479310008" duration="3553000" />
+      <workItem from="1707479310008" duration="4376000" />
     </task>
     <task id="LOCAL-00001" summary="Triofan Commit">
       <option name="closed" value="true" />
@@ -239,7 +262,15 @@
       <option name="project" value="LOCAL" />
       <updated>1705674186127</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Driplane Commit">
+      <option name="closed" value="true" />
+      <created>1707487168391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1707487168391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +301,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Triofan Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="Triofan Commit" />
+    <MESSAGE value="Driplane Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Driplane Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
