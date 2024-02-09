@@ -58,7 +58,7 @@
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
-            <version>4.16.1</version>
+            <version>4.17.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
@@ -166,7 +166,7 @@
                             <goal>generate</goal>
                         </goals>
                         <configuration>
-                            <projectName>RX-DRUGS-HUBS</projectName>
+                            <projectName>Triofan</projectName>
                             <outputDirectory>${project.build.directory}/myReports</outputDirectory>
                             <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
 

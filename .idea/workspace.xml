@@ -4,18 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="483502ba-c651-44da-bc2b-6dd3c7c60028" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/LoginUITest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/Setup.java" afterDir="false" />
+    <list default="true" id="483502ba-c651-44da-bc2b-6dd3c7c60028" name="Changes" comment="Triofan Commit">
+      <change afterPath="$PROJECT_DIR$/configuration.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/pages/DefaultProjectDashboardUITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/pages/TriofanLoginUITest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/runners/Runner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/stepdefinitions/AfterClickingLOGINTriofanLoginUITestSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/stepdefinitions/Hooks.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/stepdefinitions/TriofanLoginUITestSD.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/stepdefinitions/UserLoginSteps.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/tests/Test001.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/utilities/ConfigurationReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/utilities/Driver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/utilities/ReusableMethods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/triofan/utilities/WebDriverFactoryStaticThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/afterclickingLOGINtriofanloginuitest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/triofanloginuitest.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/userloginsteps.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LoginUITest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Setup.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,156 +59,147 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;Cucumber Java.Feature: afterclickingLOGINtriofanloginuitest.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Feature: amazonsearch.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Click LOGIN with empty Email and Password (TC02).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User interacts with the login page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: User sees the 'Driplane' text on the login page.executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify \&quot;Please write a valid email address\&quot; message (TC03).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify \&quot;Write your password\&quot; message (TC04).executor&quot;: &quot;Run&quot;,
+    &quot;Cucumber Java.Scenario: Verify the presence of \&quot;Driplane\&quot; (TC10).executor&quot;: &quot;Run&quot;,
     &quot;JUnit.LoginTest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.LoginUITest.executor&quot;: &quot;Run&quot;,
     &quot;JUnit.LoginUITest.loginUITestAfter.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Runner.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test001.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.Test001.test001.executor&quot;: &quot;Debug&quot;,
+    &quot;JUnit.Test001.test002.executor&quot;: &quot;Run&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aonik/IdeaProjects/Triofan/src/test/java/triofan/stepdefinitions&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/aonik/IdeaProjects/Triofan/src/main/java/org/example/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.LoginUITest">
-    <configuration default="true" type="DjangoTestsConfigurationType">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\aonik\IdeaProjects\Triofan\src\test\java\triofan\stepdefinitions" />
+      <recent name="C:\Users\aonik\IdeaProjects\Triofan\src\test\java\triofan\utilities" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.Runner">
+    <configuration name="Scenario: Click LOGIN with empty Email and Password (TC02)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/afterclickingLOGINtriofanloginuitest.feature" />
+      <option name="GLUE" value="triofan.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="triofan" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="TARGET" value="" />
-      <option name="SETTINGS_FILE" value="" />
-      <option name="CUSTOM_SETTINGS" value="false" />
-      <option name="USE_OPTIONS" value="false" />
-      <option name="OPTIONS" value="" />
-      <method v="2" />
+      <option name="NAME_FILTER" value="^Click LOGIN with empty Email and Password \(TC02\)$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Click LOGIN with empty Email and Password \(TC02\)$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Click LOGIN with empty Email and Password (TC02)" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
-    <configuration name="LoginTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="Scenario: User interacts with the login page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/triofanloginuitest.feature" />
+      <option name="GLUE" value="triofan.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
       <module name="triofan" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginTest" />
+      <option name="NAME_FILTER" value="^User interacts with the login page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User interacts with the login page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User interacts with the login page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: User sees the 'Driplane' text on the login page" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/triofanloginuitest.feature" />
+      <option name="GLUE" value="triofan.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="triofan" />
+      <option name="NAME_FILTER" value="^User sees the \'Driplane\' text on the login page$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^User sees the \'Driplane\' text on the login page$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: User sees the 'Driplane' text on the login page" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Scenario: Verify the presence of &quot;Driplane&quot; (TC10)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="5" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/resources/features/afterclickingLOGINtriofanloginuitest.feature" />
+      <option name="GLUE" value="triofan.stepdefinitions" />
+      <option name="MAIN_CLASS_NAME" value="io.cucumber.core.cli.Main" />
+      <module name="triofan" />
+      <option name="NAME_FILTER" value="^Verify the presence of \&quot;Driplane\&quot; \(TC10\)$" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm5SMFormatter --name &quot;^Verify the presence of \&quot;Driplane\&quot; \(TC10\)$&quot;" />
+      <option name="SUGGESTED_NAME" value="Scenario: Verify the presence of &quot;Driplane&quot; (TC10)" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_WORKING_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="io.cucumber.core.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Runner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="triofan" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="triofan.runners.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="triofan.runners" />
+      <option name="MAIN_CLASS_NAME" value="triofan.runners.Runner" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="LoginUITest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="triofan" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginUITest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginUITest.loginUITestAfter" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="triofan" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LoginUITest" />
-      <option name="METHOD_NAME" value="loginUITestAfter" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="triofan" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="triofan" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
-      <module name="triofan" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="ADDITIONAL_ARGS" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
-      <module name="triofan" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="triofan" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Tox" factoryName="Tox">
-      <module name="triofan" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.LoginUITest" />
-        <item itemvalue="JUnit.LoginUITest.loginUITestAfter" />
-        <item itemvalue="JUnit.LoginTest" />
+        <item itemvalue="JUnit.Runner" />
+        <item itemvalue="Cucumber Java.Scenario: User sees the 'Driplane' text on the login page" />
+        <item itemvalue="Cucumber Java.Scenario: User interacts with the login page" />
+        <item itemvalue="Cucumber Java.Scenario: Click LOGIN with empty Email and Password (TC02)" />
+        <item itemvalue="Cucumber Java.Scenario: Verify the presence of &quot;Driplane&quot; (TC10)" />
       </list>
     </recent_temporary>
   </component>
@@ -215,11 +216,42 @@
       <workItem from="1705550450840" duration="275000" />
       <workItem from="1705654524371" duration="12118000" />
       <workItem from="1705673970162" duration="129000" />
+      <workItem from="1705674112528" duration="3670000" />
+      <workItem from="1705877615992" duration="599000" />
+      <workItem from="1706535334845" duration="593000" />
+      <workItem from="1706562527479" duration="18512000" />
+      <workItem from="1706626190543" duration="4110000" />
+      <workItem from="1706648284888" duration="2002000" />
+      <workItem from="1706699819002" duration="38264000" />
+      <workItem from="1707165007874" duration="4607000" />
+      <workItem from="1707214886332" duration="5917000" />
+      <workItem from="1707320862219" duration="129000" />
+      <workItem from="1707321008525" duration="69000" />
+      <workItem from="1707321091289" duration="109000" />
+      <workItem from="1707321221238" duration="46000" />
+      <workItem from="1707321289520" duration="33000" />
+      <workItem from="1707321343495" duration="299000" />
+      <workItem from="1707321664043" duration="364000" />
+      <workItem from="1707384129136" duration="19459000" />
+      <workItem from="1707470924603" duration="4801000" />
     </task>
+    <task id="LOCAL-00001" summary="Triofan Commit">
+      <option name="closed" value="true" />
+      <created>1705674186127</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705674186127</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Triofan Commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Triofan Commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -228,6 +260,21 @@
           <url>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</url>
           <line>13</line>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/triofan/utilities/Driver.java</url>
+          <line>58</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/triofan/utilities/Driver.java</url>
+          <line>59</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/triofan/utilities/Driver.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
