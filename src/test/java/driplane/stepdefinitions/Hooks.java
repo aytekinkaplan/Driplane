@@ -1,42 +1,36 @@
 package driplane.stepdefinitions;
 
-
-import io.cucumber.java.After;
-import io.cucumber.java.Before;
-import io.cucumber.java.Scenario;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
-import driplane.utilities.Driver;
+import org.testng.ITestResult;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.BeforeMethod;
 
 import java.io.IOException;
 
 import static driplane.utilities.ReusableMethods.takeScreenshot;
-
+import driplane.utilities.Driver;
 
 public class Hooks {
-    @Before //her senaryodan once
-    public void setUp(Scenario scenario) {
-        System.out.println("senaryo basladi..");
-        System.out.println("scenario id = " + scenario.getId());
-        System.out.println("scenario name= " + scenario.getName());
+
+    @BeforeMethod // her test metodu çalışmadan önce
+    public void setUp() {
+        System.out.println("Test başlıyor..");
+        // Burada gerekirse test başlangıcı için yapılabilecek işlemler yapılabilir
     }
 
-    @After //her senaryodan sonra
-    public void tearDown(Scenario scenario) throws IOException {
-        System.out.println("senaryodan sonra test ortami temizleniyor");
-        if (scenario.isFailed()) {
-            System.out.println("scenario failed");
-            takeScreenshot(scenario.getName());
+    @AfterMethod // her test metodu çalıştıktan sonra
+    public void tearDown(ITestResult result) throws IOException {
+        System.out.println("Test tamamlandı, temizlik yapılıyor..");
+        if (result.getStatus() == ITestResult.FAILURE) {
+            System.out.println("Test başarısız oldu");
+            // Senaryo başarısız olduğunda ekran görüntüsü al
+            takeScreenshot(result.getName());
+            // Senaryo başarısız olduğunda ekran görüntüsünü rapora ekle
             final byte[] screenshot = ((TakesScreenshot) Driver.getDriver()).getScreenshotAs(OutputType.BYTES);
-            scenario.attach(screenshot, "image/png", "FailedScenarioScreenshot");
-            System.out.println("Screenshot taken for failed scenario: " + scenario.getName());
+            System.out.println("Başarısız senaryo için ekran görüntüsü alındı: " + result.getName());
         }
-        // internet ortaminda raporlarinizi goruntulemek icin cucumber.properties dosyasi olustururz,
-        // icine cucumber.publish.enabled = true yazariz.
-        // Failed scenariolar icin console ciktisinda altta dikdortgen icersindeki rapor bilgileri cikar
-        // ilk linke tiklayarak online ortamda raporunuzu goruntuleyebilirsnz
-        // attach kismina tiklayarak da ekran goruntusunu gorebilirsnz
-
+        // Test sonunda browser kapat
         Driver.closeDriver();
     }
 }
