@@ -30,7 +30,3 @@ Driplane is an automation testing project developed using **Java Selenium**, **T
 ## License:
 
 This project is distributed under the MIT license. For more information, see the [License File](LICENSE).
-
----
-
-Feel free to customize this README according to your project's specifics and make it user-friendly for others! 🚀
