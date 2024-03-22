@@ -1,6 +1,6 @@
 # Driplane: Web Panel E2E Tests 
 
-Driplane is an automation testing project developed using **Java Selenium**, **TestNG**, and **Maven**. This project aims to optimize the testing process of web applications by leveraging Selenium's powerful automation capabilities and TestNG's robust testing framework.
+This repository is an automation testing project developed using **Java Selenium**, **TestNG**, and **Maven**. This project aims to optimize the testing process of web applications by leveraging Selenium's powerful automation capabilities and TestNG's robust testing framework.
 
 ## Key Features:
 
