@@ -18,7 +18,7 @@ This repository is an automation testing project developed using **Java Selenium
 
 ## How to Use:
 
-1. **Clone the Repository:** `git clone https://github.com/your_username/driplane.git`
+1. **Clone the Repository:** `git clone https://github.com/aytekinkaplan/driplane.git`
 2. **Build with Maven:** `mvn clean test`
 3. **View Reports:** Find HTML reports in the `target/surefire-reports` folder.
 
