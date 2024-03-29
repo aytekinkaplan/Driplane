@@ -19,14 +19,6 @@ Login process testing with different scenarios
 IntelliJ IDEA 2023.3
 Localhost
 ## Code Example:
-@Given("User is on the Driplane Dashboard page")
-    public void user_is_on_the_driplane_dashboard_page() throws InterruptedException {
-        // Write code here to navigate to the Driplane Dashboard page
-        System.out.println("***** Navigating to Driplane Dashboard Page (Test Case 001) *****");
-        Driver.getDriver().get(ConfigurationReader.getProperty("driplaneURL"));
-        loginUITest.loginProcess();
-        System.out.println("***** Navigating to Driplane Dashboard Page (Test Case 001) *****");
-        System.out.println("---------------------------------------------------------------------------");
 
     }
 
