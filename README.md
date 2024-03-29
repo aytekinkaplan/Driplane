@@ -1,9 +1,5 @@
 # Driplane: Web Panel E2E Tests 
 
-
-README.md
-# Driplane Panel UI Tests
-
 This project automates UI tests for the Driplane Panel using Java Selenium and TestNG.
 
 ## Tools Used:
