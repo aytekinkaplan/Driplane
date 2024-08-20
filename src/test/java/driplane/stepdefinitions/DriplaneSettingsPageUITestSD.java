@@ -4,7 +4,6 @@ import driplane.pages.DashboardUITest;
 import driplane.pages.LoginUITest;
 import driplane.utilities.ConfigurationReader;
 import driplane.utilities.Driver;
-import driplane.utilities.ReusableMethods;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import org.testng.asserts.SoftAssert;
@@ -31,12 +30,8 @@ public class DriplaneSettingsPageUITestSD {
     }
 
     @Then("I should understand that I am on the Driplane Settings page")
-    public void iShouldUnderstandThatIAmOnTheDriplaneSettingsPage() {
-        ReusableMethods.waitForClickability(dashboardUITest.settingsButton,5);
-        System.out.println(dashboardUITest.settingsButton.isEnabled() ? "Settings Button is clickable" : "Settings Button is not clickable");
-        ReusableMethods.waitForClickability(dashboardUITest.settingsButton,5);
-        dashboardUITest.settingsButton.click();
-        System.out.println("Current URL: " + Driver.getDriver().getCurrentUrl());
+    public void iShouldUnderstandThatIAmOnTheDriplaneSettingsPage() throws InterruptedException {
+     dashboardUITest.settingsButton.click();
     }
 
     @Then("I should see the Driplane text")

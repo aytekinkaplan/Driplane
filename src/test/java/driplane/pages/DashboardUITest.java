@@ -21,13 +21,13 @@ public class DashboardUITest {
     // Locator for the "Driplane Dashboard" element
 
     //This Element is inside single shadow DOM.
-    public String driplaneTextVisible() throws InterruptedException {
+    public void driplaneTextVisible() throws InterruptedException {
         //This Element is inside single shadow DOM.
         String cssSelectorForHost1 = "ion-list-header[class='ios hydrated']";
         ReusableMethods.waitFor(1);
         SearchContext shadow = Driver.getDriver().findElement(By.cssSelector(cssSelectorForHost1)).getShadowRoot();
         ReusableMethods.waitFor(1);
-        return shadow.findElement(By.cssSelector(".ion-inherit-color.ios.hydrated")).getText();
+        shadow.findElement(By.cssSelector(".ion-inherit-color.ios.hydrated")).getText();
     }
 
     // Locator for the "Driplane Dashboard" element
@@ -43,8 +43,22 @@ public class DashboardUITest {
     public WebElement dashboardButton;
 
     // Locator for the "Settings" label
-    @FindBy(xpath = "//ion-label[normalize-space()='Settings']")
-    public static WebElement settingsButton;
+ @FindBy(xpath = "/html/body/app-root/ion-app/ion-router-outlet/app-sidemenu/ion-split-pane/ion-menu/ion-content/ion-list/ion-menu-toggle/ion-item[2]")
+ public WebElement settingsButton;
+
+    public void settingsButtonMethod() throws InterruptedException {
+        //This Element is inside single shadow DOM.
+        String cssSelectorForHost1 = "body > app-root:nth-child(1) > ion-app:nth-child(1) > ion-router-outlet:nth-child(1) > app-sidemenu:nth-child(1) > ion-split-pane:nth-child(1) > ion-menu:nth-child(1) > ion-content:nth-child(1) > ion-list:nth-child(1) > ion-menu-toggle:nth-child(2) > ion-item:nth-child(2)";
+        ReusableMethods.waitFor(1);
+        SearchContext shadow = Driver.getDriver().findElement(By.cssSelector(cssSelectorForHost1)).getShadowRoot();
+        ReusableMethods.waitFor(1);
+        System.out.println(shadow.findElement(By.cssSelector(".item-native")).isDisplayed() ? "Settings button is visible" : "Settings button is not visible");
+        System.out.println(shadow.findElement(By.cssSelector(".item-native")).isDisplayed() ? "Settings button is clickable" : "Settings button is not clickable");
+        shadow.findElement(By.cssSelector(".item-native")).click();
+        ReusableMethods.waitFor(1);
+        System.out.println(Driver.getDriver().getCurrentUrl());
+    }
+
 
     @FindBy(css = "ion-card-title.ion-inherit-color.ios.hydrated")
     public WebElement noData;
@@ -59,6 +73,7 @@ public class DashboardUITest {
         ReusableMethods.waitFor(1);
         System.out.println(shadow.findElement(By.cssSelector(".select-text")).isDisplayed() ? "Default Project Button is visible" : "Default Project Button is not visible");
         System.out.println(shadow.findElement(By.cssSelector(".select-text")).isEnabled() ? "Default Project Button is clickable" : "Default Project Button is not clickable");
+
 
     }
 

@@ -19,7 +19,7 @@ public class LoginUITest {
     public WebElement driplaneTextVisible;
 
     // The expression for the "Email Input" section
-    @FindBy(xpath = "//input[@id='ion-input-0']")
+    @FindBy(css = "#ion-input-0")
     public WebElement emailInput;
 
     // The expression for the "Password Input" section
