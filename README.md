@@ -1,36 +1,49 @@
-# Driplane: Web Automation Testing Project
+# Driplane: Web Panel E2E Tests 
 
-Driplane is an automation testing project developed using **Java Selenium**, **TestNG**, and **Maven**. This project aims to optimize the testing process of web applications by leveraging Selenium's powerful automation capabilities and TestNG's robust testing framework.
+This project automates UI tests for the Driplane Panel using Java Selenium and TestNG.
 
-## Key Features:
+## Tools Used:
 
-- **Selenium WebDriver:** Used for interacting with web elements. It automates tasks such as form filling, clicking, and page navigation.
-- **TestNG Framework:** Provides a structured and efficient way to organize test cases, manage test suites, and generate detailed test reports. It supports parallel execution, data-driven testing, and test prioritization.
-- **Maven Build Tool:** Simplifies project management by handling dependencies, build lifecycles, and project structure. Ensures consistent builds and easy integration with Continuous Integration (CI) tools.
+Java 17
+Selenium WebDriver 4.4.0
+TestNG 7.4.0
+Cucumber 7.9.0
+IntelliJ IDEA 2023.3
+## Test Coverage:
 
-## Project Structure:
+Visibility and functionality tests for all panel elements
+Validation of transitions between pages
+Login process testing with different scenarios
+## Test Environment:
 
-1. **Page Objects:** Follows the Page Object Model (POM) design pattern. Each web page is represented as a separate class that encapsulates its elements and actions.
-2. **Test Classes:** TestNG test classes contain test methods that interact with page objects, perform validations, and verify expected outcomes.
-3. **Test Data:** Managed externally (e.g., in Excel, JSON, or feature files) for flexibility and reusability.
-4. **Configuration:** The `pom.xml` file manages dependencies, plugins, and profiles for Maven. Browser configurations (e.g., Chrome, Firefox) are specified here.
-5. **Reports:** TestNG generates HTML reports with detailed information about test execution. These reports include success/failure statuses, execution time, and stack traces.
+IntelliJ IDEA 2023.3
+Localhost
+## Code Example:
 
-## How to Use:
+    }
 
-1. **Clone the Repository:** `git clone https://github.com/your_username/driplane.git`
-2. **Build with Maven:** `mvn clean test`
-3. **View Reports:** Find HTML reports in the `target/surefire-reports` folder.
+    @Then("User confirms being on the Driplane Dashboard page")
+    public void user_confirms_being_on_the_driplane_dashboard_page() {
+        // Write code here to confirm that the user is on the Driplane Dashboard page
+        System.out.println("***** Confirming that the user is on the Driplane Dashboard Page (Test Case 002) *****");
+        System.out.println(Driver.getDriver().getCurrentUrl().contains("/projects") ? "User is on the Driplane Dashboard Page" : "User is not on the Driplane Dashboard Page");
+        System.out.println("***** Confirming that the user is on the Driplane Dashboard Page (Test Case 002) *****");
+        System.out.println("---------------------------------------------------------------------------");
+    }
 
-## Contributing:
+    @Then("User sees the Driplane title")
+    public void user_sees_the_driplane_title() {
+        // Write code here to confirm that the user sees the Driplane title
+        System.out.println("***** Confirming that the user sees the Driplane title (Test Case 003) *****");
+        System.out.println(Driver.getDriver().getTitle().contains("Driplane") ? "User sees the Driplane title" : "User does not see the Driplane title");
+        System.out.println("***** Confirming that the user sees the Driplane title (Test Case 003) *****");
+        System.out.println("---------------------------------------------------------------------------");
+    }
 
-- Report issues or suggest new features: [GitHub Issues](https://github.com/aytekinkaplan/driplane/issues)
-- Submit pull requests: Contribute fixes or enhancements, write unit tests, and ensure code quality.
+## Additional Information:
 
-## License:
+For detailed project documentation and code comments, please refer to the GitHub repository.
+You can use the following email address for bug reports and contributions: [email address removed]
+## GitHub Repository:
 
-This project is distributed under the MIT license. For more information, see the [License File](LICENSE).
-
----
-
-Feel free to customize this README according to your project's specifics and make it user-friendly for others! 🚀
+GitHub repository link: https://github.com/aytekinkaplan/Driplane.git
